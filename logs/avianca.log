@@ -1,0 +1,55 @@
+2021-07-18 10:16:49 INFO  ConsoleLoggingListener:217 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+2021-07-18 10:16:49 INFO  ConsoleLoggingListener:246 - Test Suite Started: Reserve a flight
+2021-07-18 10:16:49 INFO  ConsoleLoggingListener:263 - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Successful booking
+-------------------------------------------------------------------(reserve-a-flight;successful-booking)
+2021-07-18 10:16:50 INFO  ProvideNewDriver:38 - Instantiating driver
+2021-07-18 10:16:50 INFO  ProvideNewDriver:39 - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disable-popup-blocking,--..., goog:chromeOptions: {args: [--disable-popup-blocking, --incognito, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions, --disable-dev-shm-usage], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+2021-07-18 10:16:58 INFO  BookFlightStepDefinitions:31 - SE ABRIO EL NAVEGADOR, PROCEDIENDO A HACER AUTOMATIZACION DE 
+RESERVA DE VUELO EN LA PAGINA AVIANCA
+2021-07-18 10:16:58 INFO  BookFlightStepDefinitions:38 - Se selecciono Cúcuta como ciudad de origen
+2021-07-18 10:16:58 INFO  BookFlightStepDefinitions:39 - Se selecciono Bogotá como ciudad de destino
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:58 - VUELO DE IDA -------------------------------------
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:59 - HORA IDA: 09:56
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:60 - HORA LLEGADA: 11:10
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:61 - PRECIO: $135.270
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:62 - --------------------------------------------------
+2021-07-18 10:17:36 INFO  BookFlightAviancaSteps:63 - VUELO DE VUELTA -------------------------------------
+2021-07-18 10:17:37 INFO  BookFlightAviancaSteps:64 - HORA IDA: 07:30
+2021-07-18 10:17:37 INFO  BookFlightAviancaSteps:65 - HORA LLEGADA: 08:46
+2021-07-18 10:17:37 INFO  BookFlightAviancaSteps:66 - PRECIO: $115.770
+2021-07-18 10:17:37 INFO  BookFlightAviancaSteps:67 - -----------------------------------------------------
+2021-07-18 10:17:47 INFO  BookFlightStepDefinitions:45 - Datos de Vuelo completados
+2021-07-18 10:17:48 INFO  ConsoleLoggingListener:395 - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Successful booking
+----------------------------------------------------------------------------
